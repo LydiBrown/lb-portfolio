@@ -148,7 +148,7 @@ h3 {
   text-align: center;
 }
 .container img {
-  max-width: 100px;
+  max-width: 150px;
   max-height: 100px;
   object-fit: contain;
   margin: auto;
@@ -178,6 +178,10 @@ h3 {
 }
 .reactRouter {
   border-top-color: rgb(99, 218, 251);
+}
+.reactRouter img {
+  margin: auto;
+  width: 120px;
 }
 .react img {
   margin: auto;
