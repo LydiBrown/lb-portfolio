@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon_io/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+</head>
+<body class="contact-page">
+  <header>
+    <id top></id>
+    <div>
+      <h1><i>LYDIA BROWN</i></h1>
+    </div>
+    <div class="logo">
+      <img class="audio-logo" src="/resources/Images/audio-gold.png">
+    </div>
+    <div>
+        <h1><i>DUBBING MIXER</i></h1>
+    </div>
+</header>
+<main>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="resources/Images/Credit_List_LB.pdf" target="_blank">Credits</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+    </nav>
+    <section class="contact categories-container">
+        <h2>Contact me</h2>
+        <a class="contact-link" href="mailto:lydiamaebrown@gmail.com">Email Me</a>
+        <br />
+        <address>lydiamaebrown@gmail.com</address>
+
+        <a class="contact-link" href="tel:07906821151">Call Me</a>
+        <br />
+        <address>07906821151</address>
+      
+        <p>Alternativly, enter your details here and I will contact you:</p>
+      <form
+      method="POST"
+      action="https://us-central1-fir-ac2be.cloudfunctions.net/formReader"
+    >
+      <div>
+        <label for="Title">Select Title</label>
+        <select name="title">
+          <option value="Mr">Mr</option>
+          <option value="Mrs">Mrs</option>
+          <option value="Miss">Miss</option>
+          <option value="Ms">Ms</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="Name">Name</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <br />
+      <div>
+        <label for="Email">Email Address</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="phone">Phone number:</label>
+    <input type="tel" id="phone" name="phone">
+      </div>
+      <br />
+      <input type="submit" value="Submit">
+    </form>
+    </section>
+</main>
+</body>
+</html>
