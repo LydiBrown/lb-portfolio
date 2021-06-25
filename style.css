@@ -187,7 +187,7 @@ h3 {
   border-top-color: hsl(212, 61%, 44%);
 }
 .jquery img {
-  margin: ;
+  margin: auto;
   width: 300px;
 }
 .bootstrap {
@@ -274,7 +274,10 @@ h2 {
   margin-bottom: auto;
   object-fit: cover;
 }
-
+.alert {
+  color: rgb(237, 9, 9);
+  margin-top: -10px;
+}
 .cv-button {
   border-radius: 20px;
   color: white;
@@ -313,7 +316,7 @@ h2 {
 .project p {
   margin-left: 20px;
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .project h2 {
   margin-left: 20px;
@@ -340,7 +343,7 @@ h2 {
   padding: 2px;
 }
 .home img {
-  border: solid 6px lightgray;
+  border: solid 5px lightgray;
 }
 .contact-social {
   display: none;
@@ -530,6 +533,7 @@ h2 {
   .home-img {
     margin-top: 50px;
     height: auto;
+    border: solid 5px lightgray;
   }
   .description {
     width: 95%;
