@@ -309,7 +309,8 @@ h2 {
   position: absolute;
   bottom: 15px;
 }
-.button:hover {
+.button:hover,
+.cv-button:hover {
   background-color: rgb(124, 139, 211);
   cursor: pointer;
 }
