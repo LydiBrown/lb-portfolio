@@ -51,7 +51,7 @@ nav {
 nav a {
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 nav ul {
   text-align: center;
@@ -62,16 +62,16 @@ nav ul li {
   margin-top: 25px;
 }
 nav img {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 120px;
+  max-height: 120px;
   width: auto;
   height: auto;
   object-fit: cover;
   padding: 0px;
   border-radius: 50%;
-  margin-top: 170px;
+  margin-top: 140px;
   align-self: center;
-  border: solid 8px rgb(242, 230, 121);
+  border: solid 6px rgb(242, 230, 121);
 }
 .social-mobile {
   display: none;
@@ -95,14 +95,15 @@ nav img {
 .nav-title {
   padding: 0px;
   color: white;
-  font-size: 25px;
+  font-size: 22px;
   margin-top: 15px;
 }
 .active {
   color: rgb(242, 230, 121);
 }
-h1 {
-  size: 200px;
+
+h3 {
+  font-size: 16px;
 }
 .contact-mobile a,
 .contact-mobile p {
@@ -278,7 +279,7 @@ h2 {
 .cv-button {
   border-radius: 20px;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   margin: 10px;
   margin-top: 25px;
   padding: 10px 20px 10px 20px;
@@ -327,14 +328,14 @@ h2 {
 
 .home {
   width: 90%;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-left: 8%;
   margin-right: 8%;
   display: flex;
   flex-direction: row;
 }
 .home-img {
-  max-height: 500px;
+  max-height: 400px;
   width: auto;
   object-fit: contain;
   padding: 2px;
@@ -351,13 +352,13 @@ h2 {
   margin-left: 20px;
 }
 .description p {
-  font-size: 18px;
+  font-size: 14px;
 }
 .name {
-  font-size: 80px;
+  font-size: 60px;
 }
 .jobtitle {
-  font-size: 30px;
+  font-size: 23px;
 }
 .thejump {
   text-decoration: none;
@@ -370,17 +371,17 @@ h2 {
   text-align: center;
   width: 100%;
   position: absolute;
-  bottom: 30px;
+  bottom: 20px;
   width: 100%;
 }
 .email {
-  font-size: 16px;
+  font-size: 13px;
   color: rgb(242, 230, 121);
   bottom: 50px;
   word-break: break-all;
 }
 .phonenumber {
-  font-size: 20px;
+  font-size: 14px;
   color: rgb(242, 230, 121);
   text-align: center;
   margin-top: 15px;
@@ -390,7 +391,7 @@ h2 {
   display: none;
   width: fit-content;
   height: fit-content;
-  line-height: 40px;
+  line-height: 30px;
   background-color: rgb(38, 38, 38);
   padding: 5px;
   position: absolute;
@@ -411,10 +412,10 @@ h2 {
   transition-delay: 100ms;
 }
 .social-menu ul {
-  font-size: 18px;
+  font-size: 14px;
 }
 .social-menu ul li {
-  font-size: 18px;
+  font-size: 14px;
   margin-top: 0px;
 }
 .social-menu ul li ul {
@@ -423,7 +424,7 @@ h2 {
   margin-right: auto;
 }
 .social-menu a {
-  font-size: 18px;
+  font-size: 14px;
 }
 /*---------------------------Media Queries-----------------------------*/
 
