@@ -61,7 +61,6 @@ nav ul {
 nav ul li {
   margin-top: 25px;
 }
-
 nav img {
   max-width: 150px;
   max-height: 150px;
@@ -105,6 +104,22 @@ nav img {
 h1 {
   size: 200px;
 }
+.contact-mobile a,
+.contact-mobile p {
+  color: black;
+  text-decoration: none;
+}
+.contact-mobile {
+  position: relative;
+  bottom: -80px;
+}
+.contact-mobile p {
+  text-align: left;
+}
+.contact-mobile i {
+  margin-right: 15px;
+}
+/*-------------------------SKILLS PAGE-----------------------*/
 .skills-flex-container {
   width: 80%;
   margin-top: 20px;
@@ -327,6 +342,9 @@ h2 {
 .home img {
   border: solid 6px lightgray;
 }
+.contact-social {
+  display: none;
+}
 .description {
   width: 50%;
   position: relative;
@@ -359,6 +377,7 @@ h2 {
   font-size: 16px;
   color: rgb(242, 230, 121);
   bottom: 50px;
+  word-break: break-all;
 }
 .phonenumber {
   font-size: 20px;
@@ -372,12 +391,9 @@ h2 {
   width: fit-content;
   height: fit-content;
   line-height: 40px;
-  letter-spacing: 1px;
   background-color: rgb(38, 38, 38);
   padding: 5px;
   position: absolute;
-  left: 0px;
-  right: -15px;
 }
 .social-menu ul {
   display: inline;
@@ -396,11 +412,15 @@ h2 {
 }
 .social-menu ul {
   font-size: 18px;
-  margin-left: 65px;
 }
 .social-menu ul li {
   font-size: 18px;
   margin-top: 0px;
+}
+.social-menu ul li ul {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .social-menu a {
   font-size: 18px;
@@ -410,6 +430,15 @@ h2 {
 @media only screen and (max-width: 1245px) {
   body {
     width: 100%;
+  }
+  .contact-mobile a,
+  .contact-mobile p {
+    color: black;
+    text-decoration: none;
+  }
+  .contact-mobile {
+    position: relative;
+    bottom: -80px;
   }
   .home {
     flex-direction: column;
