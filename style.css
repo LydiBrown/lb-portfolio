@@ -283,6 +283,10 @@ h2 {
   color: rgb(237, 9, 9);
   margin-top: -10px;
 }
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+}
 .cv-button {
   border-radius: 20px;
   color: white;
@@ -505,7 +509,11 @@ h2 {
   .project {
     width: 85%;
   }
-
+  .buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
   .text-container {
     height: fit-content;
     overflow: visible;
@@ -610,6 +618,19 @@ h2 {
     background-color: rgb(81, 108, 206);
     text-decoration: none;
     position: static;
+  }
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .cv-button {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 530px) {
